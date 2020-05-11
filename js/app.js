@@ -2,7 +2,7 @@
 var userName=prompt('Welcome to my page can you tell me your name');
 alert('Welcome again '+userName+' to my page I will ask you some questions about my self and you will answer by yes or no');
 //First question
-var myName= prompt('My name is anas');
+var myName= prompt('My name is anas?');
 if(myName.toLowerCase() ==='yes' || myName.toLowerCase() ==='y')
 {
   alert('This is a good starting');
@@ -18,7 +18,7 @@ else{
   console.log('First question:You should pick yes or no');
 }
 //Second question
-var favDrink= prompt('My favorite drink is orange juice');
+var favDrink= prompt('My favorite drink is orange juice?');
 if(favDrink.toLowerCase() ==='yes' || favDrink.toLowerCase() ==='y')
 {
   alert('sorry I do not like it');
@@ -34,7 +34,7 @@ else{
   console.log('Second question:You should pick yes or no');
 }
 //Third question
-var favMeal= prompt('My favorite meal is Shawarma');
+var favMeal= prompt('My favorite meal is Shawarma?');
 if(favMeal.toLowerCase() ==='yes' || favMeal.toLowerCase() ==='y')
 {
   alert('yes this is true I fall in love with Shawarma ');
@@ -50,7 +50,7 @@ else{
   console.log('Third question:You should pick yes or no');
 }
 //Fourth question
-var favTeam= prompt('My favorite football Team is Realmadrid');
+var favTeam= prompt('My favorite football Team is Realmadrid?');
 if(favTeam.toLowerCase() ==='yes' || favTeam.toLowerCase() ==='y')
 {
   alert('you are so right Madrid is the best Team in the world, I hope you like Madrid to');
@@ -66,7 +66,7 @@ else{
   console.log('Fourth question:You should pick yes or no');
 }
 //Fifth question
-var favMovie= prompt('My favorite movie is Harry Potter');
+var favMovie= prompt('My favorite movie is Harry Potter?');
 if(favMovie.toLowerCase() ==='yes' || favMovie.toLowerCase() ==='y')
 {
   alert('That\'s true I recommended you to watch it');
