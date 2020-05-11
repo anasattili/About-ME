@@ -53,7 +53,7 @@ else{
 var favTeam= prompt('My favorite football Team is Realmadrid?');
 if(favTeam.toLowerCase() ==='yes' || favTeam.toLowerCase() ==='y')
 {
-  alert('you are so right Madrid is the best Team in the world, I hope you like Madrid to');
+  alert('you are so right Madrid is the best Team in the world, I hope you like Madrid');
   console.log('Fourth question:Your answer is true');
 
 } else if(favTeam.toLowerCase() ==='no' || favTeam.toLowerCase() ==='n')
