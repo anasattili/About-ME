@@ -105,6 +105,9 @@ for(var i=0;i<4;i++){
     alert('sorry, It\'s too low');
     console.log('sixth question:Your answer is false');
   }
+  else {
+    console.log('sixth question:Your answer is false');
+  }
 }
 alert('My favorate number is 8');
 
