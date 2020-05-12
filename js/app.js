@@ -8,8 +8,7 @@ if(myName.toLowerCase() ==='yes' || myName.toLowerCase() ==='y')
 {
   alert('This is a good starting');
   console.log('First question:Your answer is true');
-  
-  score+=score;
+  score++;
 } else if(myName.toLowerCase() ==='no' || myName.toLowerCase() ==='n')
 {
   alert('sorry this is not true');
@@ -25,11 +24,12 @@ if(favDrink.toLowerCase() ==='yes' || favDrink.toLowerCase() ==='y')
 {
   alert('sorry I do not like it');
   console.log('Second question:Your answer is false');
-  score++;
+  
 } else if(favDrink.toLowerCase() ==='no' || favDrink.toLowerCase() ==='n')
 {
   alert('You are amazing keep on it');
   console.log('Second question:Your answer is true');
+  score++;
 }
 else{
   alert('sorry you should answer by yes or no');
