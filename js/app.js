@@ -60,7 +60,7 @@ function ques3(){
 }
 ques3();
 //Fourth question
-function question4(){
+function ques4(){
   var favTeam= prompt('My favorite football Team is Realmadrid?');
   if(favTeam.toLowerCase() ==='yes' || favTeam.toLowerCase() ==='y')
   {
