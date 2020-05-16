@@ -2,7 +2,7 @@
 var score=0;
 var userName=prompt('Welcome to my page can you tell me your name');
 alert('Welcome again '+userName+' to my page I will ask you some questions about my self and you will answer by yes or no');
-//First question
+
 function ques1(){
   var myName= prompt('My name is anas?');
   if(myName.toLowerCase() ==='yes' || myName.toLowerCase() ==='y')
@@ -21,7 +21,7 @@ else{
 }
 }
 ques1();
-//Second question
+
 function ques2(){
   var favDrink= prompt('My favorite drink is orange juice?');
   if(favDrink.toLowerCase() ==='yes' || favDrink.toLowerCase() ==='y')
@@ -40,7 +40,7 @@ else{
 }
 }
 ques2();
-//Third question
+
 function ques3(){
   var favMeal= prompt('My favorite meal is Shawarma?');
   if(favMeal.toLowerCase() ==='yes' || favMeal.toLowerCase() ==='y')
@@ -59,7 +59,7 @@ function ques3(){
   }
 }
 ques3();
-//Fourth question
+
 function ques4(){
   var favTeam= prompt('My favorite football Team is Realmadrid?');
   if(favTeam.toLowerCase() ==='yes' || favTeam.toLowerCase() ==='y')
@@ -78,7 +78,7 @@ else{
 }
 }
 ques4();
-//Fifth question
+
 function ques5(){
   var favMovie= prompt('My favorite movie is Harry Potter?');
   if(favMovie.toLowerCase() ==='yes' || favMovie.toLowerCase() ==='y')
@@ -98,14 +98,20 @@ else{
 
 }
 ques5();
-//sixth question
+
 function ques6(){
+ var correct =false;
   for(var i=0;i<4;i++){
-    var guessNum=parseInt(prompt('Can you guess my favorite number. Please type a number.'));
-    if(guessNum ===8){
+        var guessNum=parseInt(prompt('Can you guess my favorite number. Please type a number.'));
+        if ((i===3) && guessNum !== 8){
+          alert('out of chance and my favorite number is 8');
+          console.log('sixth question:Your answer is false');
+        }
+   else if(guessNum ===8){
       alert('That\'s rigth you are amazing');
       console.log('sixth question:Your answer is true');
     score++;
+    correct= true;
     break;
   }
   else if(guessNum >8){
@@ -120,11 +126,11 @@ function ques6(){
     console.log('sixth question:Your answer is false');
   }
 }
-alert('My favorate number is 8');
+
 
 }
 ques6();
-//Seventh quastion
+
 function ques7(){
   for(var x=0;x<6;x++){
     var favFruit=['kiwi','orange','banana','strawberry','mango'];
